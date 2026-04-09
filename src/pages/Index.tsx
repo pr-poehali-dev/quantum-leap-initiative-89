@@ -8,21 +8,21 @@ const services = [
   {
     icon: "Dumbbell",
     title: "Спортзал",
-    desc: "Силовое оборудование, штанги, стойки и всё необходимое для серьёзных тренировок. Подходит для любого уровня подготовки.",
+    desc: "Силовое оборудование, штанги, стойки — для серьёзных тренировок и любого уровня подготовки.",
     tag: "Фитнес",
     image: "https://cdn.poehali.dev/projects/cf003ea4-29ff-4ab1-9a83-23282ee9af3c/bucket/8d441164-2571-4518-bbef-e45b371a3772.jpg",
   },
   {
     icon: "Sunset",
     title: "Летняя веранда",
-    desc: "Уютное пространство под прозрачной крышей с деревянными столами — идеально для отдыха, встреч и тихих вечеров.",
+    desc: "Деревянные столы под прозрачной крышей — место для встреч, отдыха и тихих вечеров.",
     tag: "Отдых",
     image: "https://cdn.poehali.dev/projects/cf003ea4-29ff-4ab1-9a83-23282ee9af3c/bucket/3ef8e5e7-d3d6-4d78-b6c5-3ac3f557e872.png",
   },
   {
     icon: "PartyPopper",
-    title: "Аренда помещения",
-    desc: "Просторный зал для дней рождения, корпоративов и семейных торжеств. Бильярд и музыкальная установка — в наличии.",
+    title: "Аренда зала",
+    desc: "Дни рождения, корпоративы, праздники. Бильярд и живая музыка — уже внутри.",
     tag: "Мероприятия",
     image: "https://cdn.poehali.dev/projects/cf003ea4-29ff-4ab1-9a83-23282ee9af3c/bucket/400c4805-5f4b-4f50-8100-7b17b99da362.png",
   },
@@ -32,13 +32,13 @@ const extras = [
   {
     icon: "CircleDot",
     title: "Бильярд",
-    desc: "Профессиональный стол в атмосферном зале — отличное развлечение для компании.",
+    desc: "Профессиональный стол — отличное развлечение для компании.",
     image: "https://cdn.poehali.dev/projects/cf003ea4-29ff-4ab1-9a83-23282ee9af3c/bucket/2957da76-1d02-408f-a86b-df97f90f6175.jpg",
   },
   {
     icon: "Music",
     title: "Музыкальная установка",
-    desc: "Профессиональный звук, гитары, синтезаторы и микрофоны — всё для живой музыки и репетиций.",
+    desc: "Гитары, синтезаторы, микрофоны — всё для живого звука и репетиций.",
     image: "https://cdn.poehali.dev/projects/cf003ea4-29ff-4ab1-9a83-23282ee9af3c/bucket/fb040cc6-8c26-4208-9bb0-f1a614dc0220.jpg",
   },
 ]
@@ -47,19 +47,19 @@ const reviews = [
   {
     name: "Анна М.",
     role: "Постоянный клиент",
-    text: "Хожу в спортзал уже полгода — тренеры внимательные, оборудование всегда в идеальном состоянии. Атмосфера заряжает на результат!",
+    text: "Хожу уже полгода — тренеры внимательные, оборудование в порядке. Атмосфера реально заряжает!",
     rating: 5,
   },
   {
     name: "Дмитрий К.",
     role: "Провёл корпоратив",
-    text: "Арендовали зал для корпоратива на 40 человек. Всё было организовано на высшем уровне — вкусно, красиво и профессионально.",
+    text: "Арендовали зал на 40 человек. Всё чётко — и весело, и вкусно, и без лишних заморочек.",
     rating: 5,
   },
   {
     name: "Елена В.",
     role: "День рождения",
-    text: "Провела юбилей на летней веранде. Место потрясающее — живая зелень, уютная обстановка, гости были в восторге!",
+    text: "Отмечали юбилей на веранде. Гости до сих пор вспоминают — место просто огонь!",
     rating: 5,
   },
 ]
@@ -67,23 +67,23 @@ const reviews = [
 const faqs = [
   {
     q: "Как записаться на тренировку?",
-    a: "Позвоните нам, напишите в WhatsApp или заполните форму на сайте. Администратор подберёт удобное время и тренера.",
+    a: "Позвоните, напишите в WhatsApp или заполните форму. Подберём удобное время и тренера.",
   },
   {
     q: "Есть ли пробное занятие?",
-    a: "Да! Первое занятие в спортзале — бесплатно. Приходите познакомиться с командой и попробовать оборудование.",
+    a: "Да! Первое занятие в спортзале — бесплатно. Приходи познакомиться.",
   },
   {
-    q: "Как забронировать зал для мероприятия?",
-    a: "Свяжитесь с нами для обсуждения даты и деталей. Мы поможем с организацией: декор, кейтеринг, развлечения.",
+    q: "Как забронировать зал?",
+    a: "Пишите или звоните — обсудим дату, помжем с организацией: декор, кейтеринг, музыка.",
   },
   {
-    q: "Какой график работы?",
-    a: "Спортзал открыт ежедневно с 7:00 до 23:00. Веранда и банкетный зал — по предварительной записи.",
+    q: "Когда вы работаете?",
+    a: "Спортзал — ежедневно с 7:00 до 23:00. Веранда и банкетный зал — по записи.",
   },
   {
-    q: "Есть ли абонементы?",
-    a: "Да, предлагаем месячные и годовые абонементы со скидкой до 30%. Также действует семейный тариф.",
+    q: "Есть абонементы?",
+    a: "Да — месяц и год со скидкой до 30%. Есть семейный тариф.",
   },
 ]
 
@@ -98,38 +98,38 @@ export default function Index() {
       </ShaderBackground>
 
       {/* О КОМПАНИИ */}
-      <section id="about" className="bg-[#f5f0e8] py-24 px-8">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+      <section id="about" className="bg-white py-20 px-6">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
           <div>
-            <span className="text-[#c8a84b] text-xs uppercase tracking-[0.3em] font-medium mb-4 block">
-              О компании
+            <span className="inline-flex items-center gap-2 text-[#f85a00] text-xs font-bold uppercase tracking-widest mb-5">
+              <span className="w-6 h-0.5 bg-[#f85a00]" />
+              О нас
             </span>
-            <h2 className="text-4xl md:text-5xl font-light text-[#0d0d0d] leading-tight mb-6">
-              Создаём <span className="font-semibold italic">пространство</span>
-              <br />для вашей жизни
+            <h2 className="font-display text-5xl md:text-6xl font-black uppercase text-[#0f1723] leading-none mb-6">
+              Больше чем<br />
+              <span className="text-[#f85a00] italic">спортклуб</span>
             </h2>
-            <p className="text-[#0d0d0d]/60 leading-relaxed mb-6 text-sm">
-              SportLife — это больше, чем спортивный клуб. Мы объединили фитнес, отдых и праздник
-              в одном месте, чтобы каждый момент здесь был наполнен энергией и радостью.
+            <p className="text-[#0f1723]/60 leading-relaxed mb-5 text-base">
+              SportLife — спортзал, веранда, бильярд и живая музыка в одном месте. Тренируйся, тусуйся, отмечай — всё здесь.
             </p>
-            <p className="text-[#0d0d0d]/60 leading-relaxed text-sm">
-              Более 5 лет мы создаём атмосферу, в которую хочется возвращаться снова и снова.
-              Профессиональная команда, современное оборудование и искренняя забота о каждом госте.
+            <p className="text-[#0f1723]/50 leading-relaxed text-sm">
+              5 лет создаём атмосферу, в которую хочется возвращаться. Крутая команда и искренняя забота о каждом.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
             {[
-              { num: "5+", label: "лет на рынке" },
-              { num: "1200+", label: "довольных клиентов" },
-              { num: "3", label: "уникальных пространства" },
-              { num: "20+", label: "профессиональных тренеров" },
+              { num: "5+", label: "лет опыта", icon: "Trophy" },
+              { num: "1200+", label: "клиентов", icon: "Users" },
+              { num: "3", label: "пространства", icon: "MapPin" },
+              { num: "20+", label: "тренеров", icon: "Zap" },
             ].map((stat) => (
               <div
                 key={stat.label}
-                className="bg-white rounded-2xl p-6 border border-[#c8a84b]/20 hover:border-[#c8a84b]/50 transition-colors"
+                className="group bg-[#f5f6f8] rounded-2xl p-6 hover:bg-[#f85a00] transition-colors duration-300 cursor-default"
               >
-                <div className="text-3xl font-semibold text-[#c8a84b] mb-1">{stat.num}</div>
-                <div className="text-xs text-[#0d0d0d]/50 uppercase tracking-wider">{stat.label}</div>
+                <Icon name={stat.icon} size={20} className="text-[#f85a00] group-hover:text-white mb-3 transition-colors" />
+                <div className="text-3xl font-black text-[#0f1723] group-hover:text-white leading-none mb-1 transition-colors">{stat.num}</div>
+                <div className="text-xs text-[#0f1723]/50 group-hover:text-white/80 uppercase tracking-wider transition-colors">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -137,53 +137,48 @@ export default function Index() {
       </section>
 
       {/* УСЛУГИ */}
-      <section id="services" className="bg-[#0d0d0d] py-24 px-8">
+      <section id="services" className="bg-[#0f1723] py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="mb-14 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+          <div className="mb-12 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
             <div>
-              <span className="text-[#c8a84b] text-xs uppercase tracking-[0.3em] font-medium mb-4 block">
-                Наши услуги
+              <span className="inline-flex items-center gap-2 text-[#f85a00] text-xs font-bold uppercase tracking-widest mb-5">
+                <span className="w-6 h-0.5 bg-[#f85a00]" />
+                Услуги
               </span>
-              <h2 className="text-4xl md:text-5xl font-light text-white leading-tight">
-                Три направления —
-                <br />
-                <span className="font-semibold italic text-[#c8a84b]">один адрес</span>
+              <h2 className="font-display text-5xl md:text-6xl font-black uppercase text-white leading-none">
+                Всё в одном<br />
+                <span className="text-[#f85a00] italic">месте</span>
               </h2>
             </div>
             <a
               href="#contacts"
-              className="self-start md:self-auto px-8 py-3 border border-[#c8a84b]/50 text-[#c8a84b] text-xs uppercase tracking-widest hover:bg-[#c8a84b]/10 transition-all rounded-full whitespace-nowrap"
+              className="self-start md:self-auto px-6 py-3 bg-[#f85a00] text-white text-sm font-bold uppercase tracking-wide rounded-full hover:bg-[#ff6a10] transition-all hover:scale-105 whitespace-nowrap"
             >
               Записаться
             </a>
           </div>
 
-          {/* Основные услуги с фото */}
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="grid md:grid-cols-3 gap-5 mb-8">
             {services.map((s) => (
               <div
                 key={s.title}
-                className="group relative overflow-hidden rounded-2xl border border-white/10 hover:border-[#c8a84b]/50 transition-all duration-500 cursor-pointer"
+                className="group relative overflow-hidden rounded-2xl cursor-pointer"
               >
-                {/* Фото */}
-                <div className="relative h-56 overflow-hidden">
+                <div className="relative h-60 overflow-hidden">
                   <img
                     src={s.image}
                     alt={s.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-[#0d0d0d]/30 to-transparent" />
-                  <span className="absolute top-4 left-4 text-[#c8a84b] text-[10px] uppercase tracking-[0.25em] bg-[#0d0d0d]/60 backdrop-blur-sm px-3 py-1 rounded-full border border-[#c8a84b]/30">
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0f1723] via-[#0f1723]/20 to-transparent" />
+                  <span className="absolute top-3 left-3 text-white text-[10px] font-bold uppercase tracking-widest bg-[#f85a00] px-3 py-1 rounded-full">
                     {s.tag}
                   </span>
                 </div>
-                {/* Текст */}
-                <div className="p-6 bg-white/5">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-9 h-9 rounded-lg bg-[#c8a84b]/15 flex items-center justify-center group-hover:bg-[#c8a84b]/25 transition-colors">
-                      <Icon name={s.icon} size={16} className="text-[#c8a84b]" />
-                    </div>
-                    <h3 className="text-white text-lg font-medium">{s.title}</h3>
+                <div className="p-5 bg-white/5 border border-white/10 group-hover:border-[#f85a00]/40 transition-colors rounded-b-2xl -mt-1">
+                  <div className="flex items-center gap-3 mb-2">
+                    <Icon name={s.icon} size={16} className="text-[#f85a00]" />
+                    <h3 className="text-white font-bold text-base">{s.title}</h3>
                   </div>
                   <p className="text-white/50 text-sm leading-relaxed">{s.desc}</p>
                 </div>
@@ -191,26 +186,25 @@ export default function Index() {
             ))}
           </div>
 
-          {/* Дополнительные услуги */}
           <div>
-            <span className="text-white/30 text-[10px] uppercase tracking-[0.3em] mb-6 block">Дополнительно</span>
-            <div className="grid md:grid-cols-2 gap-5">
+            <span className="text-white/30 text-[10px] font-bold uppercase tracking-widest mb-4 block">Дополнительно</span>
+            <div className="grid md:grid-cols-2 gap-4">
               {extras.map((e) => (
                 <div
                   key={e.title}
-                  className="group flex gap-5 items-center bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:border-[#c8a84b]/40 transition-all duration-300"
+                  className="group flex gap-4 items-center bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:border-[#f85a00]/40 transition-all duration-300"
                 >
-                  <div className="w-36 h-28 shrink-0 overflow-hidden">
+                  <div className="w-32 h-24 shrink-0 overflow-hidden">
                     <img
                       src={e.image}
                       alt={e.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
-                  <div className="py-4 pr-6">
-                    <div className="flex items-center gap-2 mb-2">
-                      <Icon name={e.icon} size={14} className="text-[#c8a84b]" />
-                      <h4 className="text-white font-medium text-sm">{e.title}</h4>
+                  <div className="py-3 pr-5">
+                    <div className="flex items-center gap-2 mb-1.5">
+                      <Icon name={e.icon} size={14} className="text-[#f85a00]" />
+                      <h4 className="text-white font-bold text-sm">{e.title}</h4>
                     </div>
                     <p className="text-white/45 text-xs leading-relaxed">{e.desc}</p>
                   </div>
@@ -222,28 +216,36 @@ export default function Index() {
       </section>
 
       {/* ОТЗЫВЫ */}
-      <section id="reviews" className="bg-[#f5f0e8] py-24 px-8">
+      <section id="reviews" className="bg-[#f5f6f8] py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="mb-14 text-center">
-            <span className="text-[#c8a84b] text-xs uppercase tracking-[0.3em] font-medium mb-4 block">
+          <div className="mb-12 text-center">
+            <span className="inline-flex items-center gap-2 text-[#f85a00] text-xs font-bold uppercase tracking-widest mb-5">
+              <span className="w-6 h-0.5 bg-[#f85a00]" />
               Отзывы
+              <span className="w-6 h-0.5 bg-[#f85a00]" />
             </span>
-            <h2 className="text-4xl md:text-5xl font-light text-[#0d0d0d] leading-tight">
-              Что говорят <span className="font-semibold italic">наши гости</span>
+            <h2 className="font-display text-5xl md:text-6xl font-black uppercase text-[#0f1723] leading-none">
+              Говорят наши<br />
+              <span className="text-[#f85a00] italic">клиенты</span>
             </h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-5">
             {reviews.map((r) => (
-              <div key={r.name} className="bg-white rounded-2xl p-8 border border-[#c8a84b]/15 hover:border-[#c8a84b]/40 transition-colors">
-                <div className="flex gap-1 mb-5">
+              <div key={r.name} className="bg-white rounded-2xl p-7 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                <div className="flex gap-1 mb-4">
                   {Array.from({ length: r.rating }).map((_, i) => (
-                    <Icon key={i} name="Star" size={14} className="text-[#c8a84b] fill-[#c8a84b]" />
+                    <Icon key={i} name="Star" size={14} className="text-[#f85a00] fill-[#f85a00]" />
                   ))}
                 </div>
-                <p className="text-[#0d0d0d]/70 text-sm leading-relaxed mb-6 italic">"{r.text}"</p>
-                <div>
-                  <div className="text-[#0d0d0d] font-medium text-sm">{r.name}</div>
-                  <div className="text-[#0d0d0d]/40 text-xs uppercase tracking-wider mt-0.5">{r.role}</div>
+                <p className="text-[#0f1723]/70 text-sm leading-relaxed mb-5">"{r.text}"</p>
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 rounded-full bg-[#f85a00]/15 flex items-center justify-center">
+                    <span className="text-[#f85a00] font-black text-xs">{r.name[0]}</span>
+                  </div>
+                  <div>
+                    <div className="text-[#0f1723] font-bold text-sm">{r.name}</div>
+                    <div className="text-[#0f1723]/40 text-xs">{r.role}</div>
+                  </div>
                 </div>
               </div>
             ))}
@@ -252,62 +254,62 @@ export default function Index() {
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="bg-white py-24 px-8">
+      <section id="faq" className="bg-white py-20 px-6">
         <div className="max-w-3xl mx-auto">
-          <div className="mb-14 text-center">
-            <span className="text-[#c8a84b] text-xs uppercase tracking-[0.3em] font-medium mb-4 block">
-              Частые вопросы
+          <div className="mb-12 text-center">
+            <span className="inline-flex items-center gap-2 text-[#f85a00] text-xs font-bold uppercase tracking-widest mb-5">
+              <span className="w-6 h-0.5 bg-[#f85a00]" />
+              FAQ
+              <span className="w-6 h-0.5 bg-[#f85a00]" />
             </span>
-            <h2 className="text-4xl md:text-5xl font-light text-[#0d0d0d] leading-tight">
-              Ответы на <span className="font-semibold italic">ваши вопросы</span>
+            <h2 className="font-display text-5xl font-black uppercase text-[#0f1723] leading-none">
+              Частые<br /><span className="text-[#f85a00] italic">вопросы</span>
             </h2>
           </div>
           <div className="space-y-3">
-            {faqs.map((item, i) => (
-              <details
-                key={i}
-                className="group bg-[#f5f0e8] rounded-2xl border border-[#c8a84b]/15 overflow-hidden hover:border-[#c8a84b]/40 transition-colors"
-              >
-                <summary className="flex items-center justify-between px-7 py-5 cursor-pointer list-none">
-                  <span className="text-[#0d0d0d] font-medium text-sm pr-4">{item.q}</span>
-                  <Icon name="Plus" size={16} className="text-[#c8a84b] shrink-0 group-open:hidden" />
-                  <Icon name="Minus" size={16} className="text-[#c8a84b] shrink-0 hidden group-open:block" />
-                </summary>
-                <div className="px-7 pb-5">
-                  <p className="text-[#0d0d0d]/60 text-sm leading-relaxed">{item.a}</p>
+            {faqs.map((f) => (
+              <div key={f.q} className="group bg-[#f5f6f8] hover:bg-[#f85a00]/5 border border-transparent hover:border-[#f85a00]/20 rounded-2xl p-6 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="w-6 h-6 rounded-full bg-[#f85a00]/15 flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-[#f85a00]/25 transition-colors">
+                    <Icon name="Plus" size={12} className="text-[#f85a00]" />
+                  </div>
+                  <div>
+                    <h3 className="text-[#0f1723] font-bold text-sm mb-2">{f.q}</h3>
+                    <p className="text-[#0f1723]/55 text-sm leading-relaxed">{f.a}</p>
+                  </div>
                 </div>
-              </details>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       {/* КОНТАКТЫ */}
-      <section id="contacts" className="bg-[#0d0d0d] py-24 px-8">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-start">
+      <section id="contacts" className="bg-[#0f1723] py-20 px-6">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-start">
           <div>
-            <span className="text-[#c8a84b] text-xs uppercase tracking-[0.3em] font-medium mb-4 block">
+            <span className="inline-flex items-center gap-2 text-[#f85a00] text-xs font-bold uppercase tracking-widest mb-5">
+              <span className="w-6 h-0.5 bg-[#f85a00]" />
               Контакты
             </span>
-            <h2 className="text-4xl md:text-5xl font-light text-white leading-tight mb-8">
-              Приходите,
-              <br />
-              <span className="font-semibold italic text-[#c8a84b]">будем рады!</span>
+            <h2 className="font-display text-5xl md:text-6xl font-black uppercase text-white leading-none mb-8">
+              Приходи<br />
+              <span className="text-[#f85a00] italic">к нам!</span>
             </h2>
             <div className="space-y-5">
               {[
-                { icon: "MapPin", label: "Адрес", value: "ул. Спортивная, 12, Москва" },
-                { icon: "Phone", label: "Телефон", value: "+7 (999) 123-45-67" },
-                { icon: "Mail", label: "Email", value: "hello@sportlife.ru" },
-                { icon: "Clock", label: "Режим работы", value: "Ежедневно, 7:00 – 23:00" },
+                { icon: "Phone", label: "Телефон", value: "+7 (900) 000-00-00" },
+                { icon: "MessageCircle", label: "WhatsApp", value: "+7 (900) 000-00-00" },
+                { icon: "MapPin", label: "Адрес", value: "ул. Примерная, 1" },
+                { icon: "Clock", label: "Режим работы", value: "Пн–Вс, 7:00 – 23:00" },
               ].map((c) => (
                 <div key={c.label} className="flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-[#c8a84b]/15 flex items-center justify-center shrink-0">
-                    <Icon name={c.icon} size={16} className="text-[#c8a84b]" />
+                  <div className="w-10 h-10 rounded-xl bg-[#f85a00]/15 flex items-center justify-center shrink-0">
+                    <Icon name={c.icon} size={16} className="text-[#f85a00]" />
                   </div>
                   <div>
-                    <div className="text-white/30 text-[10px] uppercase tracking-wider">{c.label}</div>
-                    <div className="text-white text-sm">{c.value}</div>
+                    <div className="text-white/40 text-xs uppercase tracking-wider mb-0.5">{c.label}</div>
+                    <div className="text-white font-semibold text-sm">{c.value}</div>
                   </div>
                 </div>
               ))}
@@ -315,44 +317,46 @@ export default function Index() {
           </div>
 
           <div className="bg-white/5 border border-white/10 rounded-2xl p-8">
-            <h3 className="text-white font-medium mb-6">Оставить заявку</h3>
-            <div className="space-y-4">
+            <h3 className="text-white font-bold text-lg mb-6">Оставить заявку</h3>
+            <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
               <input
                 type="text"
                 placeholder="Ваше имя"
-                className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-[#c8a84b]/50 transition-colors"
+                className="w-full bg-white/8 border border-white/15 rounded-xl px-4 py-3 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-[#f85a00]/60 transition-colors"
               />
               <input
                 type="tel"
                 placeholder="Номер телефона"
-                className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-[#c8a84b]/50 transition-colors"
+                className="w-full bg-white/8 border border-white/15 rounded-xl px-4 py-3 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-[#f85a00]/60 transition-colors"
               />
-              <select className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white/60 text-sm focus:outline-none focus:border-[#c8a84b]/50 transition-colors appearance-none">
-                <option value="">Выберите услугу</option>
-                <option value="gym">Спортзал</option>
-                <option value="veranda">Летняя веранда</option>
-                <option value="event">Аренда под мероприятие</option>
-              </select>
               <textarea
                 rows={3}
-                placeholder="Комментарий (необязательно)"
-                className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-[#c8a84b]/50 transition-colors resize-none"
+                placeholder="Что вас интересует?"
+                className="w-full bg-white/8 border border-white/15 rounded-xl px-4 py-3 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-[#f85a00]/60 transition-colors resize-none"
               />
-              <button className="w-full py-4 bg-[#c8a84b] text-black font-medium text-xs uppercase tracking-widest rounded-xl hover:bg-[#d4b860] transition-colors cursor-pointer">
+              <button
+                type="submit"
+                className="w-full py-3 bg-[#f85a00] text-white font-bold text-sm uppercase tracking-wide rounded-xl hover:bg-[#ff6a10] transition-all duration-200 hover:scale-[1.02] active:scale-95"
+              >
                 Отправить заявку
               </button>
-            </div>
+            </form>
           </div>
-        </div>
-
-        <div className="max-w-6xl mx-auto mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <div>
-            <span className="text-white font-semibold text-base tracking-wide uppercase">SportLife</span>
-            <span className="text-[#c8a84b] text-xs ml-3 tracking-widest">Спорт & Отдых</span>
-          </div>
-          <p className="text-white/25 text-xs">© 2024 SportLife. Все права защищены.</p>
         </div>
       </section>
+
+      {/* FOOTER */}
+      <footer className="bg-[#080d14] py-6 px-6">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex items-center gap-2">
+            <div className="w-7 h-7 rounded-lg bg-[#f85a00] flex items-center justify-center">
+              <span className="text-white font-black text-xs">SL</span>
+            </div>
+            <span className="text-white/60 text-sm font-medium">SportLife</span>
+          </div>
+          <span className="text-white/30 text-xs">© 2024 SportLife. Все права защищены.</span>
+        </div>
+      </footer>
     </div>
   )
 }

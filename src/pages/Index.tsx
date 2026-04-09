@@ -8,20 +8,38 @@ const services = [
   {
     icon: "Dumbbell",
     title: "Спортзал",
-    desc: "Современное оборудование, профессиональные тренеры и индивидуальные программы тренировок для любого уровня подготовки.",
+    desc: "Силовое оборудование, штанги, стойки и всё необходимое для серьёзных тренировок. Подходит для любого уровня подготовки.",
     tag: "Фитнес",
+    image: "https://cdn.poehali.dev/projects/cf003ea4-29ff-4ab1-9a83-23282ee9af3c/bucket/8d441164-2571-4518-bbef-e45b371a3772.jpg",
   },
   {
     icon: "Sunset",
     title: "Летняя веранда",
-    desc: "Уютное пространство под открытым небом для отдыха, деловых встреч и дружеских вечеров в любое время года.",
+    desc: "Уютное пространство под прозрачной крышей с деревянными столами — идеально для отдыха, встреч и тихих вечеров.",
     tag: "Отдых",
+    image: "https://cdn.poehali.dev/projects/cf003ea4-29ff-4ab1-9a83-23282ee9af3c/bucket/3ef8e5e7-d3d6-4d78-b6c5-3ac3f557e872.png",
   },
   {
     icon: "PartyPopper",
     title: "Аренда помещения",
-    desc: "Просторный зал для дней рождения, корпоративов и семейных торжеств. Берём на себя организацию и декор.",
+    desc: "Просторный зал для дней рождения, корпоративов и семейных торжеств. Бильярд и музыкальная установка — в наличии.",
     tag: "Мероприятия",
+    image: "https://cdn.poehali.dev/projects/cf003ea4-29ff-4ab1-9a83-23282ee9af3c/bucket/400c4805-5f4b-4f50-8100-7b17b99da362.png",
+  },
+]
+
+const extras = [
+  {
+    icon: "CircleDot",
+    title: "Бильярд",
+    desc: "Профессиональный стол в атмосферном зале — отличное развлечение для компании.",
+    image: "https://cdn.poehali.dev/projects/cf003ea4-29ff-4ab1-9a83-23282ee9af3c/bucket/2957da76-1d02-408f-a86b-df97f90f6175.jpg",
+  },
+  {
+    icon: "Music",
+    title: "Музыкальная установка",
+    desc: "Профессиональный звук, гитары, синтезаторы и микрофоны — всё для живой музыки и репетиций.",
+    image: "https://cdn.poehali.dev/projects/cf003ea4-29ff-4ab1-9a83-23282ee9af3c/bucket/fb040cc6-8c26-4208-9bb0-f1a614dc0220.jpg",
   },
 ]
 
@@ -139,20 +157,66 @@ export default function Index() {
               Записаться
             </a>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
+
+          {/* Основные услуги с фото */}
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
             {services.map((s) => (
               <div
                 key={s.title}
-                className="group bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#c8a84b]/40 hover:bg-white/8 transition-all duration-300"
+                className="group relative overflow-hidden rounded-2xl border border-white/10 hover:border-[#c8a84b]/50 transition-all duration-500 cursor-pointer"
               >
-                <div className="w-12 h-12 rounded-xl bg-[#c8a84b]/15 flex items-center justify-center mb-6 group-hover:bg-[#c8a84b]/25 transition-colors">
-                  <Icon name={s.icon} size={22} className="text-[#c8a84b]" />
+                {/* Фото */}
+                <div className="relative h-56 overflow-hidden">
+                  <img
+                    src={s.image}
+                    alt={s.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-[#0d0d0d]/30 to-transparent" />
+                  <span className="absolute top-4 left-4 text-[#c8a84b] text-[10px] uppercase tracking-[0.25em] bg-[#0d0d0d]/60 backdrop-blur-sm px-3 py-1 rounded-full border border-[#c8a84b]/30">
+                    {s.tag}
+                  </span>
                 </div>
-                <span className="text-[#c8a84b]/60 text-[10px] uppercase tracking-[0.25em] mb-3 block">{s.tag}</span>
-                <h3 className="text-white text-xl font-medium mb-3">{s.title}</h3>
-                <p className="text-white/50 text-sm leading-relaxed">{s.desc}</p>
+                {/* Текст */}
+                <div className="p-6 bg-white/5">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-9 h-9 rounded-lg bg-[#c8a84b]/15 flex items-center justify-center group-hover:bg-[#c8a84b]/25 transition-colors">
+                      <Icon name={s.icon} size={16} className="text-[#c8a84b]" />
+                    </div>
+                    <h3 className="text-white text-lg font-medium">{s.title}</h3>
+                  </div>
+                  <p className="text-white/50 text-sm leading-relaxed">{s.desc}</p>
+                </div>
               </div>
             ))}
+          </div>
+
+          {/* Дополнительные услуги */}
+          <div>
+            <span className="text-white/30 text-[10px] uppercase tracking-[0.3em] mb-6 block">Дополнительно</span>
+            <div className="grid md:grid-cols-2 gap-5">
+              {extras.map((e) => (
+                <div
+                  key={e.title}
+                  className="group flex gap-5 items-center bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:border-[#c8a84b]/40 transition-all duration-300"
+                >
+                  <div className="w-36 h-28 shrink-0 overflow-hidden">
+                    <img
+                      src={e.image}
+                      alt={e.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
+                  <div className="py-4 pr-6">
+                    <div className="flex items-center gap-2 mb-2">
+                      <Icon name={e.icon} size={14} className="text-[#c8a84b]" />
+                      <h4 className="text-white font-medium text-sm">{e.title}</h4>
+                    </div>
+                    <p className="text-white/45 text-xs leading-relaxed">{e.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

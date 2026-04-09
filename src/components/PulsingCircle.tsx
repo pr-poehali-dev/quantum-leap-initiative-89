@@ -7,18 +7,18 @@ export default function PulsingCircle() {
       <div className="relative w-20 h-20 flex items-center justify-center">
         {/* Pulsing Border Circle */}
         <PulsingBorder
-          colors={["#BEECFF", "#E77EDC", "#FF4C3E", "#00FF88", "#FFD700"]}
+          colors={["#c8a84b", "#1a3a22", "#f5f0e8", "#c8a84b", "#ffffff"]}
           colorBack="#00000000"
-          speed={1.5}
+          speed={1.2}
           roundness={1}
           thickness={0.1}
           softness={0.2}
-          intensity={5}
-          spotsPerColor={5}
-          spotSize={0.1}
-          pulse={0.1}
-          smoke={0.5}
-          smokeSize={4}
+          intensity={4}
+          spotsPerColor={4}
+          spotSize={0.12}
+          pulse={0.15}
+          smoke={0.4}
+          smokeSize={3}
           style={{
             width: "60px",
             height: "60px",
@@ -26,7 +26,6 @@ export default function PulsingCircle() {
           }}
         />
 
-        {/* Rotating Text Around the Pulsing Border */}
         <motion.svg
           className="absolute inset-0 w-full h-full"
           viewBox="0 0 100 100"
@@ -41,9 +40,9 @@ export default function PulsingCircle() {
           <defs>
             <path id="circle" d="M 50, 50 m -38, 0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0" />
           </defs>
-          <text className="text-sm fill-white/80">
+          <text fontSize="8.5" fill="#c8a84b" letterSpacing="1">
             <textPath href="#circle" startOffset="0%">
-              Vertex Studio - Vertex Studio - Vertex Studio -
+              SportLife · Спорт · Отдых · Праздники ·
             </textPath>
           </text>
         </motion.svg>
